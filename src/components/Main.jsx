@@ -20,7 +20,7 @@ export default function Main() {
                 setGameList(res.data);
             })
             .catch(err => console.log(err));
-    });
+    }, []);
 
     const changeDisplayInsert = (showFlag) => {
         console.log('final' + showFlag);
@@ -40,9 +40,7 @@ export default function Main() {
             })
             .then(response => {
                 console.log(response.data);
-                // window.location.reload();
-                setGameList(gameList.push(response.data));
-                setShowInsert(!showInsert);
+                window.location.reload();
             });
         }
         else alert('Please fill all input');
@@ -73,7 +71,7 @@ export default function Main() {
                     </div>
                 </div>
             )}
-
+            
             {gameList && gameList.length > 0 && <ViewList gameList={gameList} />}
         </div>
     )
