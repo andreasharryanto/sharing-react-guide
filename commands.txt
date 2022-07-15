@@ -1,11 +1,15 @@
+// create project react
 npx create-react-app sharing-crud
-npm start
 
+//setelah git clone
 npm install react-scripts --save
+
+//run server json sebelum npm start
+npm install -g json-server
+json-server --watch db.json --port 3001
 
 npm i axios
 
-npm install -g json-server
-json-server --watch db.json --port 3001
+npm start
 
 npm run build
