@@ -55,15 +55,17 @@ const Edit = forwardRef((props, ref) => {
                                     <span>Title</span><br />
                                     <input type="text" ref={titleRef} />
                                 </label><br />
+
                                 <label>
-                                <span>Developer :</span><br />
+                                    <span>Developer :</span><br />
                                     <input type="text" ref={developerRef} />
                                 </label><br />
+
                                 <input type="submit" value="Submit" />
+                                <button onClick={() => setShowEdit(false)}>Cancel</button>
                             </form>
                         </div>
                     </div>
-                    <button onClick={() => setShowEdit(false)}>Cancel</button>
                 </div>
                 :
                 <div>This is Edit section</div>}

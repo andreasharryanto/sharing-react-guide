@@ -62,10 +62,12 @@ export default function Main() {
                                 <span>Title</span><br />
                                 <input type="text" ref={titleRef} />
                             </label><br />
+
                             <label>
-                            <span>Developer :</span><br />
+                                <span>Developer :</span><br />
                                 <input type="text" ref={developerRef} />
                             </label><br />
+
                             <input type="submit" value="Submit" />
                         </form>
                     </div>

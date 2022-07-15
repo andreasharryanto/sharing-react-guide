@@ -23,7 +23,7 @@ export default function ViewList (props) {
 
     return (
         <>
-            <table style={{textAlign: "left"}}>
+            <table style={{textAlign: "left", margin: '20px 70px'}}>
                 <thead>
                     <tr>
                         <th>ID</th>
