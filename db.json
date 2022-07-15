@@ -1,0 +1,24 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "The Witcher",
+            "author": "foo"
+        },
+        {
+            "id": 2,
+            "title": "The Legend of Zelda",
+            "author": "facebook"
+        },
+        {
+            "id": 3,
+            "title": "Stardew Valley",
+            "author": "css master"
+        },
+        {
+            "id": 4,
+            "title": "Amnesia",
+            "author": "medium"
+        }
+    ]
+}
